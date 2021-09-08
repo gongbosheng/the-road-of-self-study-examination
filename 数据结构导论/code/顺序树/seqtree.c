@@ -24,9 +24,8 @@ int levelOrder(Bintree bt)
     }
     if (!EmptyLinkQueue)
     {
-        p = GetHead(lq);
         OutLinkQueue(lq);
-        printf("%d",p);
+        printf("%d",);
         
     }
     
