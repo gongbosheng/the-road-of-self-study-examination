@@ -2,9 +2,6 @@
 
 using namespace std;
 
-
-
-
 class Z {};
 
 template <class T>
