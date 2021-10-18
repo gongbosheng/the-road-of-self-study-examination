@@ -1,0 +1,1 @@
+(last(/hardware.switch/ifOperStatus[{#SNMPVALUE}],#1)<>last(/hardware.switch/ifOperStatus[{#SNMPVALUE}],#2))=1 and find(/hardware.switch/ifAlias[{#SNMPVALUE}],,"like","NotExist")=0
